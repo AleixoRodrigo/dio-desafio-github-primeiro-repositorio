@@ -1,5 +1,17 @@
 Link para download do Git:
 
 https://git-scm.com/
+
 O GitBash é um terminal extendido para otimizar o uso do Git. Ou seja,
 em qualquer SO quando inicializado o bash, os comandos para criação e ou manipulação de arquivos, seram os mesmos.
+
+Comandos para adicionar alterações no git, após o clone do repositório do GitHub:
+ No Gitbash após git status;
+ git add . ou git add * ou git add -a;
+
+Preparando o repositório para ser empurrado para o github;
+ git commmit -m "Aspas para passar uma mensagem relativa ao comite"
+
+Enviando o repósitorio para nuvem:
+ git push origin main
+
